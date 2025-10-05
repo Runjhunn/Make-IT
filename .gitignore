@@ -1,0 +1,35 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Node
+node_modules/
+**/node_modules/
+
+# Builds
+build/
+dist/
+.out/
+.next/
+.cache/
+coverage/
+
+# Env files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Frontend artifacts
+FrontEnd/.vite/
+FrontEnd/.parcel-cache/
+
+# Misc
+*.local
+*.bak
+*.orig
